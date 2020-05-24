@@ -1,0 +1,295 @@
+selector {
+    property: value;
+    property: value;
+    property: value;
+}
+
+
+/* id ต้องใช้ # */
+#idName {
+    color: red;
+}
+/* Class ต้องใช้ . */
+.className {
+    color: greenyellow;
+}
+
+input:checked {
+    ;
+    /* width:15px; */
+    /* height:15px; */
+}
+
+div:hover {
+    ;
+    color: palevioletred;
+}
+div::before {
+    ;
+    /* content: "hello world"  */
+}
+div::first-letter {
+    ;
+    color: red;
+}
+#tagH div {
+    ;
+    color: yellowgreen;
+}
+#tagH span {
+    ;
+    /* color: indianred; */
+}
+#tagH > div {
+    ;
+    color: orchid;
+}
+p span {
+    ;
+    /* color:darkgoldenrod */
+}
+p > span {
+    ;
+    /* color:aqua */
+}
+p div {
+    ;
+    color: red;
+}
+.plusCombinator + div {
+    ;
+    /* color:brown; */
+}
+.plusCombinator - div {
+    ;
+    /* color:burlywood; */
+
+    /* 
+input
+ */
+
+
+}
+input[type] {
+    ;
+    /* color: blue; */
+}
+input[type="password"] {
+    ;
+    /* background-color: silver; */
+}
+input[title="this"] {
+    ;
+    /* this something, x this-something, x thissomething, x something this*/
+    /* background-color: darksalmon; */
+}
+input[title^="input"] {
+    ;
+    /* background-color: forestgreen; */
+}
+input[title~="input"] {
+    ;
+    /* background-color: black; */
+}
+input[title$="Form"] {
+    ;
+    /* background-color: teal; */
+}
+input[title*="this"] {
+    ;
+    /* background-color: hotpink; */
+}
+
+/* 
+Text & Paragraph
+*/
+
+.textAlign {
+    ;
+    /* text-align: left; */
+    /* text-align: right; */
+    /* text-align: start; */
+    /* text-align: center; */
+    /* text-align: justify; */
+}
+.verticalAlign {
+    ;
+    /* vertical-align: super; */
+    /* vertical-align: sub; */
+}
+
+.textAlign {
+    ;
+    /* word-spacing:3mm; */
+}
+
+.textAlign {
+    ;
+    /* text-decoration-line: underline; */
+    /* text-decoration-line: dotted; */
+    /* text-decoration-line: red; */
+    /* text-decoration: overline solid red ; */
+}
+
+.textAlign {
+    ;
+    /* text-indent: 10ch; */
+}
+
+.textDirection {
+    ;
+    /* width: 100vw; */
+    /* direction: ltr; */
+    /* direction: rtl; */
+    /* text-shadow: 10px 10px ; */
+    /* if  ถ้าค่าติดลบ เงาตัวหนังสือยกขึ้น */
+}
+
+
+/* Font
+Sans-serif:ตัวหนังสือมีหัว
+serif: ตัวหนังสือไม่มีหัว
+@Font-face : สำหรับเพิ่มฟ้อนต์
+font-family: ชนิดฟ้อนต์
+font-style: ตัวตรง,ตัวเอียง
+*/
+
+@font-face {
+    ;
+    font-family: Sarabun;
+    src: url('../Font/Sarabun-Bold.ttf');
+}
+p {
+    ;
+    /* font-family: Sarabun; */
+    /* font-style: italic; */
+    /* font-weight: bold; */
+    /* font-size: 16px; */
+    /* font-variant: small-caps; */
+}
+
+/* 
+list style
+*/
+
+ul > li {
+    ;
+    /* border:solid 1px black */
+    /* list-style: circle; */
+    /* list-style-type: inside; */
+    /* list-style-position: outside; */
+    /* list-style-image: url(); */
+    /* list-style: circle inside url(); */
+}
+
+/* Border ได้แก่ ขอบของ ตัวอักษร กล่องข้อความ ฟอร์ม ตาราง */
+
+.borderTable {
+    ;
+    /* width:100vw; */
+    /* min-width: 300px; */
+    /* max-width: 650px; */
+    /* property 650px */
+    /* height:100ps */
+    /* border-style: outside; */
+    /* border-radius: 10px; */
+    /* border-color: red; */
+    /* border: 5px double dodgerblue; */
+    /* border-top-color: blueviolet; */
+    /* border: ; */
+}
+
+/* Table ได้แก่  border, border-collapse, border-spacing, border-side, caption-side, empty-cells,table-layout */
+
+table,
+td,
+th {
+    /* border-collapse: collapse; */
+    border: 1px solid black;
+    /* border-spacing: 10px; */
+    /* empty-cells: hide; */
+    /* table-layout: fixed; */
+    /* width: 100%; */
+    /* height: 50px; */
+    /* caption-side: bottom ;  */
+}
+
+/* img ได้แก่ background-color,background-image,background-repeat:repeat-x,repeat-y, background-attachment,background-position */
+
+img {
+    display: block;
+    border: solid black 1px;
+    border-radius: 15px;
+    width: 500;
+    height: 300;
+    margin: auto;
+    /* opacity: 0.5; */
+}
+
+
+.bgTest {
+    width: 60vw;
+    height: 80vh;
+    background-color: yellowgreen;
+    /* border: solid black; */
+    /* background-image: url('https://th.bing.com/th/id/OIP.ExifkwhDwgF0UGX6BUspoAHaEK?pid=Api&rs=1'); */
+    /* background-repeat: no-repeat; */
+    /* background-position: top left; */
+}
+
+body {
+    ;
+    /* background-color: yellow; */
+    /* background-image: url(https://th.bing.com/th/id/OIP.ExifkwhDwgF0UGX6BUspoAHaEK?pid=Api&rs=1); */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat; */
+}
+
+/* Padding ได้แก่  top,right,bottom,left */
+/* Margin  ได้แก่ top,right, bottom,top&bottom,right&left,all slide, auto */
+
+.paddingMargin {
+    width: 100vw;
+    /* height: 10vh; */
+    /* display: block; */
+    display: inline;
+    background-color: rgb(227, 238, 130);
+    /* display: inline-block; */
+    /* padding:10px 20px 30px 40px; */
+    /* padding:40px 30px 20px 10px; */
+    /* margin:10px; */
+    /* margin:10px 20px 30px 40px; */
+    /* margin:10px 40px; */
+    /* margin:auto; */
+}
+
+/* Display ได้แก่ inline, block, contents, flex, grid, inline-block:flex,grid,table, run-in, */
+/* ความสามารถของ display สามารถ เปลี่ยน tag จาก tag หนึ่ง ไปเป็นอีก tag หนึ่ง ได้ */
+
+.pDisplay {
+    ;
+    /* display: inline; */
+    /* border:1px black solid; */
+    /* background-color:yellow; */
+    
+    /* display: contents; */
+    font-family: Sarabun;
+}
+
+/* justify-content: value ของ flex และ grid ต่างกัน;
+align-content, align-items,align-self */
+
+/* 
+เมื่อจะทำ Grid กับ Flex
+การจัดแนวนอนให้ใช้ justify 
+การจัดแนวตั้งให้ใช้ align
+*/
+
+@media screen(max-with:800px){
+.container{
+    gird-template-column:auto auto;
+}
+.container{
+    grid-column: 1/3;
+}
+}

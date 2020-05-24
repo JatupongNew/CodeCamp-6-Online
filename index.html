@@ -5,9 +5,160 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=>, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./CSS/style.css" type="text/css">
+    <!-- tag link use for import external css การนำเข้าไฟล์ css จากภายในอก HTML ไฟล์ -->
 </head>
 
+<a href="#"></a>
+
 <body>
+    <!-- /*Inline CSS */ -->
+    <h1 style="property:value; property:value; color:red;"> Test tag A</h1>
+    <!-- Inline CSS use for edit style in this tag การปรับแต่ง CSS ใน Tag HTML -->
+    <style>
+        selector {
+            property: value;
+            property: value;
+            property: value;
+        }
+    </style>
+
+    <!-- /* External CSS */ -->
+    <h1 class="heading" style="property:value; property:value;"> Test tag A</h1>
+    <!-- inline css use for edit style in this tag การปรับแต่ง CSS ใน Tag HTML -->
+    <style>
+        selector {
+            property: value;
+            property: value;
+            property: value;
+        }
+
+        .heading {
+            color: red;
+        }
+    </style>
+    <!-- tag style use for import internal css การใช้ CSS จากการภายใน HTML ไฟล์ -->
+
+    <hr><br>
+    <h3 id="idName"> this tag have id that is idName</h3>
+    <h3 class="className"> this tag have class that is className</h3>
+    <hr><br>
+
+    <hr><br>
+    <h2> pseudo classes </h2>
+    <hr><br>
+    <form action="formcheckbox">
+        <input type="checkbox" checked> one </input>
+        <input type="checkbox"> two </input>
+        <input type="checkbox"> three </input>
+    </form>
+    <hr><br>
+
+    <hr><br>
+    <h2>Combianator test</h2>
+    <hr><br>
+
+    <hr><br>
+    <div>
+        <p>paragraph 1 in div</p>
+        <p>paragraph 2 in div</p>
+        <p>paragraph 3 in div</p>
+    </div>
+    <hr><br>
+
+    <br>
+    <hr>
+    <h3 id="tagH">
+        <div> div 1 item in tag p
+            <div> div 1 item in tag div in tag p </div>
+            <div class="plusCombinators"> div 2 item in tag div in tag div have class <strong>
+                    plusCombinators</strong> </div>
+            <div> div 3 item in tag div in tag p </div>
+            <div> div 4 item in tag div in tag p </div>
+            <span> tag p</span>
+            <div> div 5 item in tag div in tag 4</div>
+        </div>
+
+        <div> div 2 item in tag p</div>
+        <div> div 3 item in tag p</div>
+        <div> div 4 item in tag p</div>
+        <div> div 5 item in tag p</div>
+
+        <span> span 1 item in tag p</span>
+        <span> span 2 item in tag p</span>
+        <span> span 3 item in tag p</span>
+    </h3>
+    <br>
+    <hr>
+    <p>
+        <span> span 1 in tag p</span>
+        <span> span 2 in tag p</span>
+        <span>
+            <span> span 1 in span </span>
+            <span> span 2 in span </span>
+            <span> span 3 in span </span>
+        </span>
+    <div> div in tag p</div>
+    </p>
+    <hr><br>
+    <h2> attribute selectors</h2>
+    <form>
+        <input type="text" title="inputForm"><br>
+        <input type="color" title="input this-color"><br>
+        <input type="date" title="input-Form"><br>
+        <input type="email" title="input_Form"><br>
+        <input type="file" title="input//Form"><br>
+        <input type="password" title="input Form"><br>
+        <input type="search" title="this input search"><br>
+        <input type="button" title="inputForm"><br>
+    </form>
+    <hr><br>
+
+    <h1> สอนเรื่อง Text Decoration</h1>
+    <h2> text decoration </h2>
+
+    <br>
+    <hr>
+    <div class="textDirection"> test text </div>
+
+    <p class='textAlign'>
+        Lorem ipsum dolor sit amet,
+        <br>
+        consectetur adipisicing elit. Ipsum, aut. Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Atque, obcaecati quod! Pariatur labore exercitationem quisquam corporis totam, unde optio
+        officiis distinctio sed ipsum odit assumenda, repellat consectetur illum mollitia nisi!
+        <strong class="verticalAlign"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis deserunt eligendi
+        </strong>
+        velit expedita aliquid, sit, odit delectus consectetur sapiente obcaecati quia dolor cupiditate doloremque
+        vero nihil magnam nisi commodi ntam? Lorem ipsum dolor sit, amet consectetur adipisicing eli. Incidunt hic
+        eaque molestiae libero repellat sed numquam maiores error quidem ab. Similique ab autem cupiditate illo
+        nesciunt. Placeat, eaque. Nihil, explicabo?
+    </p>
+
+
+    <!-- if use span cannot use width -->
+    <!-- # tag p cannot use combinator with div or block elements -->
+
+<br><hr>
+<h2> Padding and Margin </h2>
+<div class="paddingMargin"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae accusamus nemo nisi reprehenderit repudiandae autem, nam fuga earum atque vero aperiam provident tempora deserunt commodi minus, est sapiente maiores libero!</div>
+
+<h2> pDisplay </h2>
+<div class="pDisplay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestiae fugit ad aut, atque hic eos adipisci quae id, autem debitis temporibus exercitationem fugiat asperiores, quam amet excepturi! Debitis, laudantium?</div>
+
+<h2> Padding and Margin </h2>
+<div class="pDisplay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum aliquid quia quisquam perspiciatis itaque voluptate suscipit nostrum veniam sunt, dolore et tempore dignissimos ducimus animi doloribus soluta, iste repellat!</div>
+
+<br><hr>
+
+
+
+
+
+    <!-- HTML STRUCTURE: TAG HTML ที่พบบ่อย -->
+    <br>
+    <hr>
     <h1>Arsenal is the best, it is heading 1</h1>
     <h2>Arsenal is the best, it is heading 2</h2>
     <h3>Arsenal is the best, it is heading 3</h3>
@@ -30,6 +181,11 @@
     <br>
     <hr>
     <img src="https://th.bing.com/th/id/OIP.ExifkwhDwgF0UGX6BUspoAHaEK?pid=Api&rs=1" alt="sea">
+
+
+<div class="bgTest"></div>
+
+
     <br>
     <button>click here</button>
     <br>
@@ -64,7 +220,8 @@
     <hr>
     <!-- thead and tbody มีไว้เพื่อแยกหัวตารางกับตาราง -->
     <!-- th and td มีไว้เพื่อแยกหัวข้อในตารางกับตาราง -->
-    <table>
+    <table class="borderTable">
+        <caption> <h3>this is caption </h3></caption>
         <thead>
             <tr>
                 <th>head of table1</th>
@@ -94,7 +251,7 @@
             </tr>
         </tbody>
     </table>
-
+<br><hr>
     <form action="">
         <input type="text"> <br>
         <input type="checkbox"> <br>
@@ -105,11 +262,13 @@
         <input type="password"> <br>
         <input type="button"> <br>
     </form>
-    <!-- / ป้อนข้อความอัติโนมัติด้วย คำสั่ง Lorem ipsum -->
+        <!-- / ป้อนข้อความอัติโนมัติด้วย คำสั่ง Lorem ipsum -->
     <!-- lorem ipsum ธรรมดา -->
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius deleniti atque enim recusandae porro ea at, fugit
+<br><hr>
+    <p class="borderTable">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius deleniti atque enim recusandae porro ea at, fugit
         nisi quae numquam sed. Quaerat maxime voluptas nesciunt doloremque aliquid nobis. Natus, doloribus!
     </p>
+
     <!-- lorem ipsum ตามกำหนด -->
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
         Ab nostrum tempora neque molestias pariatur ea impedit provident est explicabo vero esse iste magnam deserunt,
